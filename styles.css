@@ -1,0 +1,119 @@
+/* ==========================================================================
+  Start of custom Webflow CSS
+  ========================================================================== */
+  .big-section {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  
+  .button-wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 45px;
+    padding-right: 30px;
+    padding-bottom: 0px;
+    padding-left: 30px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border: 2px solid #000;
+    border-radius: 50px;
+    background-image: url("https://assets.website-files.com/60eece4ff62ffc622ad2dc63/60eecf29cd032676eacd2403_Black%20Thing.png");
+    background-position: 50% 250%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    -webkit-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+    color: #000;
+    font-weight: 600;
+    text-decoration: none;
+    font-family: 'Google Sans', sans-serif; /* Apply Google Sans font */
+  }
+  
+  .button-wrapper:hover {
+    background-position: 50% 0%;
+    color: #fff;
+  }
+  
+  .body {
+    font-family: 'Google Sans', sans-serif; /* Apply Google Sans font to the body text */
+  }
+  
+  .delete-this {
+    position: fixed;
+    left: 25px;
+    top: auto;
+    right: auto;
+    bottom: 25px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: hidden;
+    max-width: 375px;
+    padding: 10px 20px 10px 10px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 100px;
+    background-color: #fff;
+    box-shadow: 1px 1px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-transition: all 200ms ease;
+    transition: all 200ms ease;
+    color: #000;
+    text-decoration: none;
+    font-family: 'Google Sans', sans-serif; /* Apply Google Sans font */
+  }
+  
+  .delete-this:hover {
+    box-shadow: 1px 1px 20px 0 rgba(0, 0, 0, 0.33);
+    color: #3e66fc;
+  }
+  
+  .julian {
+    width: 65px;
+    margin-right: 20px;
+  }
+  
+  .div-in-promo {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+  
+  .text-in-banner {
+    font-size: 17px;
+    line-height: 23px;
+    font-weight: 700;
+  }
+  
